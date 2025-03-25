@@ -6,7 +6,7 @@ function replaceText(element) {
       const newElement = document.createElement("span");
       newElement.innerHTML = element.textContent.replace(
         /(coronavirus)/gi,
-        '<span class="rainbow">$1</span>'
+        '<span class="rainbow">lovebug</span>'
       );
       element.replaceWith(newElement);
     }
