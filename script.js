@@ -12,3 +12,5 @@ function replaceText(element) {
     }
   }
 }
+
+replaceText(document.body);
